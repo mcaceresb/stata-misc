@@ -1,0 +1,14 @@
+#!/bin/bash
+
+o=$1
+if [[ -z "$1" ]]; then
+    o=00preamble.do
+fi
+
+s="----------------------------------------------------------------------"
+rm -f $o
+for f in `ls *ado`; do
+    echo \* $s >> $o
+    cat $f >> $o
+    echo >> $o
+done
