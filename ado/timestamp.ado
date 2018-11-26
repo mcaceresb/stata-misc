@@ -3,6 +3,7 @@
 
 capture program drop timestamp
 program timestamp
+
     local nobs: di trim("`:di %21.0fc c(N)'")
     local nvar: di trim("`:di %21.0fc c(k)'")
     local sobs = cond(`c(N)' == 1, "", "s")

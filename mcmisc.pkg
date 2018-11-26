@@ -1,0 +1,27 @@
+v 0.1
+d
+d 'MCMISC': Miscellaneous collection of stata utilities.
+d
+d Miscellaneous collection of stata utilities.
+d
+d Distribution-Date: 20181125
+d
+d Author: Mauricio Caceres Bravo
+d Support: mauricio.caceres.bravo@gmail.com
+d
+f ado/bench.ado
+f ado/benchmark.ado
+f ado/genfly.ado
+f ado/head.ado
+f ado/switchcase.ado
+f ado/tail.ado
+f ado/timestamp.ado
+f ado/todatetime.ado
+f sthlp/bench.sthlp
+f sthlp/benchmark.sthlp
+f sthlp/genfly.sthlp
+f sthlp/head.sthlp
+f sthlp/switchcase.sthlp
+f sthlp/tail.sthlp
+f sthlp/timestamp.sthlp
+f sthlp/todatetime.sthlp
