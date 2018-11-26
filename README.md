@@ -14,7 +14,7 @@ Since `misc` is a generic name, the package installed will be called
 
 ```stata
 local github "https://raw.githubusercontent.com"
-net install mcmisc, from(`github'/mcaceresb/stata-misc/master/build/)
+net install mcmisc, from(`github'/mcaceresb/stata-misc/master)
 * adoupdate, update
 * ado uninstall mcmisc
 ```
